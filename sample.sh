@@ -1,5 +1,4 @@
 #!/bin/bash
-USER root
 
 mkdir tempdir
 mkdir tempdir/templates
