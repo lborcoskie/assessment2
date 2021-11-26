@@ -3,7 +3,7 @@ from flask import Flask, request, abort, make_response, url_for, jsonify
 # Work with json data
 import json
 
-datafilename = './assessment2/network_equipment.json'
+datafilename = './network_equipment.json'
 
 def read_datafile(datafile):
     with open(datafile, 'r') as filedata:
